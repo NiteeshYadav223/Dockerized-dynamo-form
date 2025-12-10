@@ -100,7 +100,7 @@ This architecture shows an EC2-based frontend sending contact data to a Dockeriz
 
 # UI Overview:-
 
-![Architecture Diagram](https://github.com/NiteeshYadav223/Dockerized-dynamo-form/blob/main/SystemArchitecture.png?raw=true)
+![UI Overview](https://github.com/NiteeshYadav223/Dockerized-dynamo-form/blob/main/Screenshot%202025-12-09%20194301.png?raw=true)
 
 
 # Notes:-
