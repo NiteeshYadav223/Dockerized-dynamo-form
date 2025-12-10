@@ -4,7 +4,10 @@ The data is securely stored in AWS DynamoDB, and the app runs in a Docker contai
 
 # System Architecture
 
-![Architecture Diagram](images/architecture.png)
+This architecture shows an EC2-based frontend sending contact data to a Dockerized backend. Inside Docker, the App service processes the requests and stores the data in a local DynamoDB instance.
+
+
+![Architecture Diagram](https://github.com/NiteeshYadav223/Dockerized-dynamo-form/blob/main/SystemArchitecture.png?raw=true)
 
 # Features:-
 
