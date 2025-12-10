@@ -29,11 +29,17 @@ The data is securely stored in AWS DynamoDB, and the app runs in a Docker contai
 # Project Structure:-
 .
 ├── Dockerfile
+|
 ├── package.json
+|
 ├── server.js
+|
 ├── public
+    |
     ├── index.html
+    |
     ├── style.css
+    |
     └── script.js
 
 
@@ -50,17 +56,22 @@ The data is securely stored in AWS DynamoDB, and the app runs in a Docker contai
 2. Docker Hub Image
 
    ->Build and push your image (or use the existing one):
-      docker build -t yourdockerhubusername/myapp-dynamodb .
-      docker push yourdockerhubusername/myapp-dynamodb:latest
 
-3. Run on EC2
+       docker build -t yourdockerhubusername/myapp-dynamodb .
+
+       docker push yourdockerhubusername/myapp-dynamodb:latest
+
+4. Run on EC2
 
    ->Ensure your EC2 has an IAM role with DynamoDB access.
-     Run the container:
-     docker run -d -p 80:3000 --name node-dynamo-app -e AWS_REGION=eu-north-1 yourdockerhubusername/myapp-dynamodb:latest
+
+       Run the container:
+
+       docker run -d -p 80:3000 --name node-dynamo-app -e AWS_REGION=eu-north-1 yourdockerhubusername/myapp-dynamodb:latest
 
    ->Open in browser:
-     http://YOUR_EC2_PUBLIC_IP/
+
+       http://YOUR_EC2_PUBLIC_IP/
 
    ->Submit the form — data will be saved to DynamoDB.
 
