@@ -83,7 +83,6 @@ This architecture shows an EC2-based frontend sending contact data to a Dockeriz
        docker build -t yourdockerhubusername/myapp-dynamodb .
        docker push yourdockerhubusername/myapp-dynamodb:latest
 
-       docker push yourdockerhubusername/myapp-dynamodb:latest
 
 4. Run on EC2
 
@@ -99,12 +98,9 @@ This architecture shows an EC2-based frontend sending contact data to a Dockeriz
 
    ->Submit the form — data will be saved to DynamoDB.
 
-ScreenShot:-
-------------
+# UI Overview:-
 
-                    ---image--
-
-
+![Architecture Diagram](https://github.com/NiteeshYadav223/Dockerized-dynamo-form/blob/main/SystemArchitecture.png?raw=true)
 
 
 # Notes:-
