@@ -2,6 +2,10 @@
 A simple Node.js web application that allows users to submit a form with Name, Email, Phone.
 The data is securely stored in AWS DynamoDB, and the app runs in a Docker container on an EC2 instance using IAM roles — no AWS keys needed.
 
+# System Architecture
+
+![Architecture Diagram](images/architecture.png)
+
 # Features:-
 
 -> Fully Dockerized Node.js app
