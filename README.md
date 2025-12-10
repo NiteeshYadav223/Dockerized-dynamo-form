@@ -35,35 +35,7 @@ This architecture shows an EC2-based frontend sending contact data to a Dockeriz
 
 # Project Structure:-
 
-|----Dockerfile
-|
-|----package.json
-|
-|----server.js
-|
-|----public
-     |
-     |---index.html
-     |
-     |---style.css
-     |
-     |---script.js
-
-     
-.
-├── Dockerfile
-|
-├── package.json
-|
-├── server.js
-|
-├── public
-    |
-    ├── index.html
-    |
-    ├── style.css
-    |
-    └── script.js
+![Structure](https://github.com/NiteeshYadav223/Dockerized-dynamo-form/blob/main/Screenshot%202025-12-10%20123221.png?raw=true)
 
 
 # Setup Instructions:-
