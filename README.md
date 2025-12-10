@@ -27,6 +27,22 @@ The data is securely stored in AWS DynamoDB, and the app runs in a Docker contai
 -> AWS IAM Role (Secure credentials)
 
 # Project Structure:-
+
+|----Dockerfile
+|
+|----package.json
+|
+|----server.js
+|
+|----public
+     |
+     |---index.html
+     |
+     |---style.css
+     |
+     |---script.js
+
+     
 .
 ├── Dockerfile
 |
@@ -58,6 +74,7 @@ The data is securely stored in AWS DynamoDB, and the app runs in a Docker contai
    ->Build and push your image (or use the existing one):
 
        docker build -t yourdockerhubusername/myapp-dynamodb .
+       docker push yourdockerhubusername/myapp-dynamodb:latest
 
        docker push yourdockerhubusername/myapp-dynamodb:latest
 
